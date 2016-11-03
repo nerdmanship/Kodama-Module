@@ -1,0 +1,14 @@
+@import 'scss/normalize-scss/sass/normalize/import-now';
+@import 'scss/kodamaModule';
+
+body {
+  background-color: #000;
+}
+
+#button {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
