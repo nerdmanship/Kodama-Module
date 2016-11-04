@@ -1,0 +1,27 @@
+#main {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%; }
+
+svg {
+  height: 700px;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.kodama {
+  opacity: 0; }
+
+body {
+  background-color: #000; }
+
+#button {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 10; }
